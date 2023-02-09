@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c967751e77.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
@@ -12,6 +13,54 @@
     <title>Form</title>
 </head>
 <body>
-    
+    <form class="form" action="#" name="form">
+        <div class="form__container">
+            <div class="form__card">
+                <h1>Registration</h1>
+                <div class="form__card__cont">
+                    <div class="form__card__cont--left">
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" name="Name" id="name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="Email" id="email">
+                        </div>
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" name="Password" id="password">
+                        </div>
+                    </div>
+                    
+                    <div class="form__card__cont--right">
+                        <div>
+                            <label for="message">Message</label>
+                            <textarea name="Message" id="message" cols="20" rows="5"></textarea>
+                        </div>
+                        <div>
+                            <label for="select">Select one</label>
+                            <select name="Select" id="select">
+                                <option value="Chocolate">Chocolate</option>
+                                <option value="Ice-cream">Ice cream</option>
+                                <option value="Cookies">Cookies</option>
+                                <option value="Swedish-fish">Swedish fish</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="Checkbox" id="checkbox">
+                            <label for="checkbox">Check me</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="form__btn">Submit</button>
+        </div>
+        <div class="empty-container"></div>
+    </form>
 </body>
 </html>
+
+
+<!-- <i class="fa-solid fa-check"></i> -->
+<!-- <i class="fa-solid fa-caret-down"></i> -->
