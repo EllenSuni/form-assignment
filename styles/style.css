@@ -103,6 +103,15 @@ input:not(#checkbox), textarea, select {
     height: 79px;
 }
 
+select, option {
+    color: #515E62;
+    font-family: 'Acme', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+}
+
 .checkbox-div {
     display: flex;
     align-items: center;
