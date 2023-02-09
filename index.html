@@ -21,25 +21,28 @@
                     <div class="form__card__cont--left">
                         <div>
                             <label for="name">Name</label>
-                            <input type="text" name="Name" id="name">
+                            <input type="text" name="Name" id="name" placeholder="Your name" required>
                         </div>
                         <div>
                             <label for="email">Email</label>
-                            <input type="email" name="Email" id="email">
+                            <input type="email" name="Email" id="email" placeholder="Your email" required>
                         </div>
                         <div>
                             <label for="password">Password</label>
-                            <input type="password" name="Password" id="password">
+                            <span class="form--small-text">(at least 8 characters)</span> 
+                            <input type="password" name="Password" id="password" placeholder="Password" required minlength="8">
                         </div>
                     </div>
                     
                     <div class="form__card__cont--right">
                         <div>
                             <label for="message">Message</label>
-                            <textarea name="Message" id="message" cols="20" rows="5"></textarea>
+                            <span class="form--small-text">(optional)</span>
+                            <textarea name="Message" id="message" cols="20" rows="5" placeholder="Your message"></textarea>
                         </div>
                         <div>
                             <label for="select">Select one</label>
+                            <span class="form--small-text">(optional)</span>
                             <select name="Select" id="select">
                                 <option value="Chocolate">Chocolate</option>
                                 <option value="Ice-cream">Ice cream</option>
@@ -54,7 +57,7 @@
                     </div>
                 </div>
             </div>
-            <button class="form__btn">Submit</button>
+            <button class="form__btn" type="submit">Submit</button>
         </div>
         <div class="empty-container"></div>
     </form>

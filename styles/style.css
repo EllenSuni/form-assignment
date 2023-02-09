@@ -110,6 +110,18 @@ select, option {
     font-weight: 400;
     font-size: 14px;
     line-height: 15px;
+    cursor: pointer;
+}
+
+.form--small-text {
+    font-family: 'Acme', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;  
+    font-style: italic;
+    text-decoration: none;
+    color: #515E62;
 }
 
 .checkbox__label {
@@ -120,10 +132,10 @@ select, option {
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: center;
-    /* -webkit-user-select: none;
+    -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none; */
+    user-select: none;
 }
 
 .checkbox__label input {
@@ -174,5 +186,19 @@ select, option {
     line-height: 20px;
     letter-spacing: 0.04em;
     color: #F2F2F2;
+}
+
+.form__btn:hover {
+    scale: 1.2;
+    text-decoration: underline;
+}
+
+input::placeholder, textarea::placeholder {
+    font-family: 'Acme', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: rgba(81, 94, 98, 0.6);
 }
 
